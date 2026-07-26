@@ -1,8 +1,28 @@
 aid: doorfeed
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/doorfeed.png
 name: DoorFeed
-description: 'DoorFeed is a company surfaced as a portfolio company of hv-capital, seedcamp and added
-  to the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'DoorFeed is a technology-led residential real estate investment platform,
+  founded in 2021 and headquartered in Paris, that helps institutional investors,
+  funds, and family offices source and manage single-family rental portfolios at scale
+  across the UK and France. The platform ingests roughly 150,000 new property listings
+  and over 1,000,000 property images every day, structuring market data, comparable
+  transactions, valuation signals, and energy-performance data into a single acquisition
+  and asset-management workflow that takes investors from market screening to investment
+  decision in minutes. DoorFeed is backed by HV Capital, Seedcamp, and Motive Partners.
+  This profile was added to the API Evangelist network as a portfolio-company lead
+  and enriched by the pipeline; DoorFeed publishes no public API or developer program
+  at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/doorfeed/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +33,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Fintech
+- PropTech
+- Real Estate
+- Investment
+- Residential
+- Property Data
+- France
+- United Kingdom
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,4 +52,27 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://doorfeed.com
+  url: https://www.doorfeed.com
+- type: Login
+  url: https://www.doorfeed.com/login
+- type: Support
+  url: https://www.doorfeed.com/contact
+- type: TermsOfService
+  url: https://www.doorfeed.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://doorfeed.com/privacy-policy
+- type: WellKnown
+  url: well-known/doorfeed-well-known.yml
+- type: SecurityTxt
+  url: well-known/doorfeed-security.txt
+- type: DomainSecurity
+  url: security/doorfeed-domain-security.yml
+- type: VulnerabilityDisclosure
+  url: security/doorfeed-vulnerability-disclosure.yml
+- type: Security
+  url: https://www.doorfeed.com/security-policy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

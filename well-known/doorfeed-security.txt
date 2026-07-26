@@ -1,0 +1,7 @@
+Contact: mailto:security@doorfeed.com
+Encryption: https://www.doorfeed.com/security-pgp.asc
+Expires: 2027-09-01T16:56:28.000Z
+Canonical: https://www.doorfeed.com/.well-known/security.txt
+Policy: https://www.doorfeed.com/security-policy
+Preferred-Languages: en
+# Fingerprint: D98D2AB5A0121DB039BD94A7E774C8E62784C50C
